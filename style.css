@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #7fb9de;
+    background-color: #282826;
+}
+
+section {
+    width: 85%;
+    padding: 50px;
+}
+
+.list {
+    width: 85%;
+    margin: auto;
+    line-height: 50px;
+}
+
+.list a {
+    color: #7fb9de;
+}
+
+.list a:hover {
+    color: #a7e7ee;
+}
