@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Изучение web-технологий. История кота веб-разработчика.">
+    <meta name="Keywords" content="HTML, CSS, обучение, web-разработка, верстка, bootstrap, javascript, git, php">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+    <title>История кота web-разработчика</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="row pb-4">
+                <div class="col-0 col-md-1">
+                </div>
+                <div class="col">
+                    <div class="row text-center">
+                        <div class="col-12 col-md-9">
+                            <p class="h1">Сайт условного кота</p>
+                            <h1 class="text-gradient">Будни web-разработчика</h1>
+                        </div>
+                        <div class="col-3 col-md-3 pt-2 mx-auto">
+                            <img src="img/kot_logo.png" alt="Логотип. Кот" class="img-animation circle img-fluid"
+                                width="120" height="120">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-0 col-md-1">
+                </div>
+            </div>
+            <nav>
+                <div class="row break-dn">
+                    <div class="col">
+                        <ul
+                            class="nav nav-pills justify-content-center justify-content-lg-end flex-column flex-md-row h4">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#weekday">Будни кота</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                    aria-expanded="false">Программа обучения:</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#block-1">1. Основы веб-технологий</a></li>
+                                    <li><a class="dropdown-item" href="#block-2">2. Основы JavaScript</a></li>
+                                    <li><a class="dropdown-item" href="#block-3">3. Современные технологии верстки</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#block-4">4. Методологии и инструменты
+                                            современной
+                                            верстки</a></li>
+                                    <li><a class="dropdown-item" href="#block-5">5. Основы Git</a></li>
+                                    <li><a class="dropdown-item" href="#block-6">6. PHP и MySQL. Основы разработки
+                                            веб-приложений</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#koto-progress">Прогресс...</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">О котах</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <!-- 1й блок -->
+            <section>
+                <div class="row lh-lg break-dn">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        Далеко-далеко за высокими горами в стране клавиш, компьютерных мышей, системных блоков и
+                        мониторов жил был кот, который захотел освоить современные web-технологии. Коварный монитор
+                        показывал совсем не то, что нужно, толку от старательного нажимания клавиш не было. И однажды
+                        кот задался вопросом, почему бы ему не улучшить свои компьютерные навыки? Опыт общения с мышами
+                        у него есть, пора освоить веб-разработку.
+                    </div>
+                    <div class="col-8 col-md-6 col-lg-4 mx-auto text-center p-2">
+                        <img src="img/kot-and-proger.gif" alt="Котэ и программист" class="img-fluid" id="weekday"
+                            width="360" height="252">
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        Кот приступил к занятиям в Университете ИТМО, по курсу "ВЕБ-РАЗРАБОТЧИК 20.35", реализуемого в
+                        рамках проекта "Цифровые профессии" (для усатых и хвостатых). В процессе обучения коту предстоит
+                        прочитать много теоретического материала, подготовить и сдать практические работы, поучаствовать
+                        в вебинарах, познакомиться с различными программами и освоить множество новых для него
+                        технологий. Чем кот и занимается.
+                    </div>
+                </div>
+            </section>
+            <!-- Таблица -->
+            <section>
+                <div class="row break-dn">
+                    <div class="col mx-auto shadowblack">
+                        <h3 class="p-2 color-blue" id="program">Программа обучения:</h3>
+                        <table class="table table-dark table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">№ блока</th>
+                                    <th scope="col">Наименование</th>
+                                    <th scope="col">Дни</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Основы веб-технологий</td>
+                                    <td>@</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Основы JavaScript</td>
+                                    <td>@</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Современные технологии верстки</td>
+                                    <td>@</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>Методологии и инструменты современной верстки</td>
+                                    <td>@</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>Основы Git</td>
+                                    <td>@</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>PHP и MySQL. Основы разработки веб-приложений</td>
+                                    <td>@</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">7</th>
+                                    <td>Дипломное проектирование</td>
+                                    <td>@</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <!-- Карточки -->
+            <section>
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-4 break-dn">
+                        <div class="card mb-3 shadowblack" id="block-1">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/block1.png" class="img-fluid rounded-start" alt="значок-иллюстрация"
+                                        width="200" height="200">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">1. Основы веб-технологий</h5>
+                                        <p class="card-text">Введение в HTML. Размещение изображений, списков и таблиц.
+                                            Медиа-файлы. Iframe. Формы. Основы каскадных таблиц стилей CSS.
+                                            Макетирование страницы с CSS. Адаптивные html-страницы. Работа со шрифтами.
+                                            CSS-анимация. Размещение и поддержка сайта в сети. Проверка валидности
+                                            верстки.</p>
+                                        <p>
+                                            <a class="btn btn-outline-primary" data-bs-toggle="collapse"
+                                                href="#collapseExample1" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample1">
+                                                Подробнее...
+                                            </a>
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Последнее обновление 07 ноября
+                                                2021</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="collapse" id="collapseExample1">
+                                        <div class="card card-body">
+                                            <p>ПРОГРАММА КУРСА</p>
+                                            <p>Тема 1. Введение в HTML. Структура страницы.</p>
+                                            <p>Понятие HTML. Основы работы глобальной сети Интернет. Понятие
+                                                веб-сервера.
+                                                Статичные и динамичные сайты. Основные типы сайтов. Обзор современных
+                                                стек
+                                                технологий HTML и CSS. Базовая структура HTML. Варианты разметки
+                                                страницы.
+                                                Основные блоки HTML-страницы.Создание гиперссылок и работа с ними.
+                                                Основы
+                                                работы с гиперссылками. Взаимосвязь между страницами статичного
+                                                веб-сайта.
+                                            </p>
+                                            <p>Тема 2. Размещение изображений, списков и таблиц
+                                                Размещение изображений на веб-странице. Упорядоченные и неупорядоченные
+                                                списки. Основы работы с таблицами. Отрывки прошлого: старые сайты
+                                                верстали в
+                                                таблицах.</p>
+                                            <p>Тема 3. Медиа-файлы. Iframe. Формы</p>
+                                            <p>Размещение на своих страницах звуковых и видео-файлов.Внедрение внешних
+                                                HTML-страниц. Взаимодействие ссылок с iframe-элементами.Текстовые поля,
+                                                радио-кнопки, флажки/чекбоксы, элемент выбора select и их атрибуты.
+                                                Создание
+                                                формы обратной связи.</p>
+                                            <p>Тема 4. Основы каскадных таблиц стилей CSS.</p>
+                                            <p>Основы работы с CSS. Подключение файла стилей. Базовые понятия: селектор,
+                                                свойство, каскад, наследование, единицы измерения. Применение
+                                                CSS-свойств к
+                                                оформлению изображений.</p>
+                                            <p>Тема 5. Макетирование страницы с CSS</p>
+                                            <p>Верстка страницы по макету. Построение структуры страницы. Высота и
+                                                ширина
+                                                колонок. Свойства float, display.</p>
+                                            <p>Тема 6. Адаптивные html-страницы</p>
+                                            <p> @media, медийные запросы (@mediaqueries) для страниц, mediafeature.</p>
+                                            <p>Тема 7. Работа со шрифтами</p>
+                                            <p>@font-face, GoogleFonts, Единицы измерения для работы со шрифтами и
+                                                html-элементами.</p>
+                                            <p>Тема 8. CSS-анимация.</p>
+                                            <p>Тема 9. Подготовка, размещение и поддержка сайта в сети</p>
+                                            <p>Выбор хостинга. Основы работы с FTP-клиентами. Использование тега meta.
+                                            </p>
+                                            <p>Тема 10. Гибкая работа со страницами сайта</p>
+                                            <p>Проверка валидности верстки. Языки серверного программирования и
+                                                генерация
+                                                динамических HTML-страниц. Возможности JavaScript по работе с
+                                                HTML-страницами и CSS-свойствами.</p>
+                                            <a href="#block-1">Вверх</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4 break-dn">
+                        <div class="card mb-3 shadowblack" id="block-2">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/block2.png" class="img-fluid rounded-start" alt="значок-иллюстрация"
+                                        width="200" height="200">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">2. Основы JavaScript</h5>
+                                        <p class="card-text">Введение в JavaScript. Конструкции ветвления и циклы.
+                                            Функции. Массивы и объекты. Клиентский JavaScript. Объект Window. Объектная
+                                            модель документа: DOM. Работа с HTML элементами. Cookie.</p>
+                                        <p>
+                                            <a class="btn btn-outline-primary" data-bs-toggle="collapse"
+                                                href="#collapseExample2" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample2">
+                                                Подробнее...
+                                            </a>
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Последнее обновление 05 декабря
+                                                2021</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="collapse" id="collapseExample2">
+                                        <div class="card card-body">
+                                            <p>ПРОГРАММА КУРСА</p>
+                                            <p>Тема 1. Введение в JavaScript</p>
+                                            <p>Типы данных. Операторы. Инструкции и выражения. Переменные и константы.
+                                            </p>
+                                            <p>Тема 2. Конструкции ветвления и циклы</p>
+                                            <p>Конструкции ветвления логики программы (if…else, switch). Циклы: с
+                                                предусловием, постусловием и арифметический.</p>
+                                            <p>Тема 3. Функции</p>
+                                            <p>Понятие функции. Объявление функции. Аргументы функции. Возврат значений.
+                                                Области видимости. Стрелочные функции. Анонимные функции.</p>
+                                            <p>Тема 4. Массивы и объекты</p>
+                                            <p>Понятие объект (Object). Свойства объекта. Методы объекта. Массивы.
+                                                Свойство
+                                                и методы функции. Объект String и его аргументы. Объект Math. Функция
+                                                parseInt(). Функция parseFloat(). Статические функции объекта Math.</p>
+                                            <p>Тема 5. Клиентский JavaScript. Объект Window</p>
+                                            <p>Объекта Data. Работа с таймерами. Свойства и методы объекта Window.
+                                                Управление поведением Window. Объект Location. Объект History. Объект
+                                                Navigator.</p>
+                                            <p>Тема 6. Клиентский JavaScript. Объектная модель документа: DOM. Работа с
+                                                HTML элементами.</p>
+                                            <p>Причины использования DHTML. DOM (DocumentObjectModel — объектная модель
+                                                документа). Доступ к узлам DOM. Доступ по идентификационному номеру
+                                                (ID).
+                                                Доступ по атрибуту name. Доступ по имени дескриптора. Доступ и
+                                                изменение
+                                                класса через свойство className. Получение информации об узле.
+                                                Перемещение
+                                                по иерархическому дереву DOM. Метод removeChild(). Удаление элементов.
+                                                Методы createElement() и appendChild(). Создание и добавление элементов.
+                                                Методы insertBefore(). Создание и добавление элементов. Метод
+                                                createTextNode(). Создание текстовых элементов. Метод setAttribute().
+                                                Добавление атрибутов. Метод cloneNode(). Клонирование элементов. Метод
+                                                replaceChild(). Замена элементов. Свойство innerHTML. Изменение
+                                                фрагментов
+                                                кода HTML. Использование CSS стилей в сценариях JavaScript. Соглашения
+                                                об
+                                                именах: CSS-атрибуты в JavaScript. Работа со свойствами стилей.
+                                                DHTML-анимация.</p>
+                                            <p>Тема 7. Клиентский JavaScript. Cookie</p>
+                                            <p>Описание cookie. Cookie в браузере.</p>
+                                            <p>Тема 8. Клиентский JavaScript. Формы и обработка событий</p>
+                                            <p>Элементы управления и объекты. Быстрый доступ к объектам. Динамическое
+                                                изменение значений атрибутов. Изменение элементов на основе значений,
+                                                указанных пользователем. Динамическое изменение списка вариантов.
+                                                Проверка
+                                                выбранных флажков. Изменение элементов перед отправкой формы на сервер.
+                                                Использование встроенных функций JavaScript. Отключение элементов.
+                                                Элементы
+                                                только для чтения.</p>
+                                            <a href="#block-2">Вверх</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4 break-dn">
+                        <div class="card mb-3 shadowblack" id="block-3">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/block3.png" class="img-fluid rounded-start" alt="значок-иллюстрация"
+                                        width="200" height="200">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">3. Современные технологии верстки</h5>
+                                        <p class="card-text">CSS-фреймворки. Контейнеры. Система сеток Bootstrap.
+                                            Оформление HTML-элементов с помощью Bootstrap. Компоненты Bootstrap. Формы.
+                                            Встраивание медиа-файлов. Flexbox. Сетка Flexbox. JavaScript и события
+                                            Bootstrap</p>
+                                        <p>
+                                            <a class="btn btn-outline-primary" data-bs-toggle="collapse"
+                                                href="#collapseExample3" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample3">
+                                                Подробнее...
+                                            </a>
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Последнее обновление 11 января
+                                                2022</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="collapse" id="collapseExample3">
+                                        <div class="card card-body">
+                                            <p>ПРОГРАММА КУРСА</p>
+                                            <p>Тема 1 CSS-фреймворки</p>
+                                            <p>CSS-фреймворки: Bootstrap и Foundation. Базовые возможности фреймворков.
+                                            </p>
+                                            <p>Тема 2 Контейнеры. Система сеток Bootstrap</p>
+                                            <p>Контейнеры. Система сеток Bootstrap. PSD-файл для разработки макета.</p>
+                                            <p>Тема 3. Оформление HTML-элементов</p>
+                                            <p>Оформление списков, шрифтов, таблиц и изображений с помощью Bootstrap.
+                                            </p>
+                                            <p>Тема 4. Компоненты Bootstrap</p>
+                                            <p>Кнопки. Выпадающие элементы. «Хлебные крошки».</p>
+                                            <p>Тема 5. Формы</p>
+                                            <p>Всплывающие формы. Формы обратной связи. Всплывающие сообщения.</p>
+                                            <p>Тема 6. Встраивание медиа-файлов</p>
+                                            <p>Границы. Иконки. Встраивание медиа-файлов на HTML-страницы.</p>
+                                            <p>Тема 7. Flexbox. Сетка Flexbox</p>
+                                            <p>Понятие Flexbox. Основы работы с Flexbox.</p>
+                                            <p>Тема 8. JavaScript и события Bootstrap</p>
+                                            <p>Понятие JavaScript. Базовые возможности языка. Взаимодействие с
+                                                Bootstrap.
+                                                Управление поведением bootstrap-компонент через JS.</p>
+                                            <a href="#block-3">Вверх</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4 break-dn">
+                        <div class="card mb-3 shadowblack" id="block-4">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/block4.png" class="img-fluid rounded-start" alt="значок-иллюстрация"
+                                        width="200" height="200">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">4. Методологии и инструменты современной
+                                            верстки</h5>
+                                        <p class="card-text">Принципы организации CSS. Метология БЭМ. GridCSS.
+                                            Таск-менеджер Gulp (факультатив). Препроцессоры CSS.</p>
+                                        <p>
+                                            <a class="btn btn-outline-primary" data-bs-toggle="collapse"
+                                                href="#collapseExample4" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample4">
+                                                Подробнее...
+                                            </a>
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Последнее обновление 22 января
+                                                2022</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="collapse" id="collapseExample4">
+                                        <div class="card card-body">
+                                            <p>ПРОГРАММА КУРСА</p>
+                                            <p>Тема 1. Принципы организации CSS</p>
+                                            <p>Методология БЭМ. ООCSS. Попиксельная верстка. Инструмент PixelPerfect.
+                                            </p>
+                                            <p>Тема 2. GridCSS</p>
+                                            <p>Контейнеры, треки, линии, ячейки, области, аллеи. Вложенность grid-ов.
+                                                Z-index.</p>
+                                            <p>Тема 3. Таск-менеджер Gulp (факультатив).</p>
+                                            <p>Понятие Таск-менеджера. Преимущества применения. Настройка Gulp на работу
+                                                c SASS.</p>
+                                            <p>Тема 4. Препроцессоры CSS</p>
+                                            <p>Основы работы с SASS. Переменные. Вложенность кода. Комментарии в SASS.
+                                                Примеси (Миксины).</p>
+                                            <p>Тема 5. Препроцессоры CSS</p>
+                                            <p>Наседование. Фрагментирование SASS файлов. Импорт. SASS-script.</p>
+                                            <a href="#block-4">Вверх</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4 break-dn">
+                        <div class="card mb-3 shadowblack" id="block-5">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/block5.png" class="img-fluid rounded-start" alt="значок-иллюстрация"
+                                        width="200" height="200">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">5. Основы Git</h5>
+                                        <p class="card-text">Системы контроля версий. Репозиторий Git. Ветвление в Git.
+                                            Использование Git на сервере. Распределенная работа в Git. Использование Git
+                                            в других окружениях</p>
+                                        <p>
+                                            <a class="btn btn-outline-primary" data-bs-toggle="collapse"
+                                                href="#collapseExample5" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample5">
+                                                Подробнее...
+                                            </a>
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Последнее обновление 03 февраля
+                                                2022</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="collapse" id="collapseExample5">
+                                        <div class="card card-body">
+                                            <p>ПРОГРАММА КУРСА</p>
+                                            <p>Тема 1. Системы контроля версий. Репозиторий Git.</p>
+                                            <p>Принципы работы систем контроля версий. Введение в Git. Установка и
+                                                начальная настройка Git (Windows и Linux).Создание, изменение и удаление
+                                                репозитория. Просмотр истории коммитов. Отмена действий. Метки.
+                                                Псевдонимы.</p>
+                                            <p>Тема 2. Ветвление в Git</p>
+                                            <p>Принципы ветвления и слияния. Управление ветками. Слияние и разрешение
+                                                конфликтов. Перебазирование.</p>
+                                            <p>Тема 3. Использование Git на сервере. Распределенная работа в Git</p>
+                                            <p>Установка Git на сервере. Настройка. Протоколы. Рабочие процессы.
+                                                Создание
+                                                коммитов. Поддержка. Инструментарий.</p>
+                                            <p>Тема 4. Использование Git в других окружениях</p>
+                                            <p>Графические утилиты. Среды разработки. GitHub.</p>
+                                            <a href="#block-5">Вверх</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4 break-dn">
+                        <div class="card mb-3 shadowblack" id="block-6">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="img/block6.png" class="img-fluid rounded-start" alt="значок-иллюстрация"
+                                        width="200" height="200">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">6. PHP и MySQL. Основы разработки
+                                            веб-приложений</h5>
+                                        <p class="card-text">Настройка окружения. Установка PHP.
+                                            Структура файла. Переменные. Подключение внешних файлов. Константы. Массивы
+                                            и строки. Циклы. Пользовательские функции. Глобальные массивы GET и POST.
+                                            Сессии и куки. ООП на PHP. Работа с БД Mysql</p>
+                                        <p>
+                                            <a class="btn btn-outline-primary" data-bs-toggle="collapse"
+                                                href="#collapseExample6" role="button" aria-expanded="false"
+                                                aria-controls="collapseExample6">
+                                                Подробнее...
+                                            </a>
+                                        </p>
+                                        <p class="card-text"><small class="text-muted">Последнее обновление 11 февраля
+                                                2022</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="collapse" id="collapseExample6">
+                                        <div class="card card-body">
+                                            <p>ПРОГРАММА КУРСА</p>
+                                            <p>Тема 1. Настройка окружения</p>
+                                            <p>Установка VirtualBox. Установка UbuntuServer. Установка Putty. Установка
+                                                docker для развертки веб-сервера. Основные команды работы с docker.
+                                                Установка SSH. Настройка SSH. Установка Apache2. Создание и загрузка
+                                                Docker
+                                                образа.</p>
+                                            <p>Тема 2. Установка языка программирования PHP</p>
+                                            <p>Установка пакета PHP внутри docker-контейнера. Установка PHP7. Установка
+                                                и
+                                                настройка WAMP-сервера на Windows.</p>
+                                            <p>Тема 3. Структура файла PHP. Переменные. Алгоритмические структуры</p>
+                                            <p>Шаблон php-документа. Переменные и константы. Условные операторы
+                                                (if-else,
+                                                switch).</p>
+                                            <p>Тема 4. Подключение внешних файлов. Константы</p>
+                                            <p>Использование функций include и require. Константы.</p>
+                                            <p>Тема 5. Массивы и строки. Циклы</p>
+                                            <p>Структура данных массив. Одномерные и двухмерные массивы. Особенности
+                                                работы
+                                                с массивами. Сортировка массивов.</p>
+                                            <p>Арифметический цикл. Цикл постусловием. Цикл с предусловием.</p>
+                                            <p>Тема 6. Пользовательские функции</p>
+                                            <p>Понятие функции. Создание и использование простых функций. Создание и
+                                                вызов
+                                                функций, принимающих аргументы. Создание и использование функций,
+                                                возвращающих значение. Переменные и функции. Область действия переменных
+                                                и
+                                                глобальные переменные. Задание значений аргументов по умолчанию.</p>
+                                            <p>Тема 7. Глобальные массивы GET и POST</p>
+                                            <p>Основы работы с get и post запросами (через HTML-формы и Ajax-запросы).
+                                                Обработка данных из HTML-формы.</p>
+                                            <p>Тема 8. Сессии и куки. Основы работы</p>
+                                            <p>Понятие куки. Установка куки. Использование данных из куки для
+                                                персонализации сайта. Понятие сессии. Запуск сессии, Создание элемента
+                                                сессии и вывод его на экран.</p>
+                                            <p>Тема 9. Объектно-ориентированное программирование на PHP</p>
+                                            <p>Понятие объектно-ориентированного программирования. Паттерны
+                                                проектирования.
+                                                Паттерн проектирования MVC.</p>
+                                            <p>Тема 10. Работа с БД Mysql</p>
+                                            <p>PHP и базы данных. Соединение с сервером и создание базы данных. Создание
+                                                таблицы. Отправка данных. Извлечение данных.</p>
+                                            <a href="#block-6">Вверх</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Прогресс-бар -->
+            <section>
+                <div class="row break-dn">
+                    <div class="col">
+                        <h6 id="koto-progress">Прогресс кошачьего освоения web-технологий</h6>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                        </div>
+                        <div class="special-width">
+                            <img src="img/kot-progress.png" class="float-end img-transition" alt="Картинка кота"
+                                width="100" height="100">
+                            <p class="text-end align-middle"><small class="text-muted">Жмак!</small></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- О котах -->
+            <section>
+                <div class="row break-dn">
+                    <div class="col">
+                        <h2 class="text-center">О котах</h2>
+                        <p><span class="fw-bold">Кот (интернет. котэ)</span> — млекопитающее семейства кошачьих o
+                            четырёх
+                            лапах, с одним хвостом и множеством усов. Имеет шерсть и хвост, окрас которых может быть
+                            разным.
+                            Любопытен и сообразителен. Иногда рвется поработать за компьютером.
+                        </p>
+                        <p>С точки зрения научной систематики, домашняя кошка — млекопитающее семейства кошачьих отряда
+                            хищных.
+                            Нередко домашнюю кошку рассматривают как подвид лесной кошки (Felis silvestris) — Felis s.
+                            catus,
+                            однако, с точки зрения современной биологической систематики, домашняя кошка является
+                            отдельным
+                            биологическим видом.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="row">
+                <div class="col text-center">
+                    <h2 id="about">Где обитают коты:</h2>
+                    <p>Условный адрес кота: г.Котофейск, котодом.</p>
+                    <p><img src="img/kot_mail-150.jpg" class="img-fluid circle shadowlight"
+                            alt="Картинка кота с письмом" width="120" height="120"></p>
+                    <p>Волшебный email кота: <a class="link-regular" href="mailto:kot@kot.ru">kot@kot.ru</a></p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center socials-link pb-2">
+                <div class="col-auto mx-1">
+                    <a href="#" class="link-regular" aria-label="Ссылка на github"><i class="bi bi-github"></i></a>
+                </div>
+                <div class="col-auto mx-1">
+                    <a href="#" class="link-regular" aria-label="Ссылка на Telegram"><i class="bi bi-telegram"></i></a>
+                </div>
+                <div class="col-auto mx-1">
+                    <a href="#" class="link-regular" aria-label="Ссылка на twitter"><i class="bi bi-twitter"></i></a>
+                </div>
+                <div class="col-auto mx-1">
+                    <a href="#" class="link-regular" aria-label="Ссылка на instagram"><i
+                            class="bi bi-instagram"></i></a>
+                </div>
+                <div class="col-auto mx-1">
+                    <a href="#" class="link-regular" aria-label="Ссылка на facebook"><i class="bi bi-facebook"></i></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <nav class="nav justify-content-center">
+                        <a class="nav-link" aria-current="page" href="#">В начало</a>
+                        <a class="nav-link" href="#program">Программа обучения</a>
+                        <a class="nav-link" href="#koto-progress">Прогресс</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-end">
+                    <hr>
+                    <p><small class="text-muted">Подготовлено в рамках дипломного проекта по курсу ИТМО
+                            "Веб-разработчик 20.35". Bootstrap 5. 2022г.</small></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
